@@ -62,13 +62,15 @@ ofgen templates=chalet,zed
 ### Templates can mean any mix of:
 - Code Editors: `Zed`, `VSCode`
 - Build Systems: `chalet`
-- Both: `XCode`
+- Both (Code Editor & Build System): `XCode`
 
 ### ofGen
-- `ofgen open` will open the first template in your list that is a code editor.
-- `ofgen buildrun` will use the first build system listed.
+- `ofgen open` ➜ Will open the first template in your list that is a code editor.
+- `ofgen buildrun` ➜ Will use the first build system listed.
 
-Example if using `of.yml`:
+---
+
+### Example if using `of.yml`:
 
 ```yaml
 templates: [macos, zed, chalet]
@@ -76,7 +78,7 @@ templates: [macos, zed, chalet]
 - `ofgen open` ➜ Opens `Xcode`
 - `ofgen buildrun` ➜ Calls `xcodebuild`
 
-Another example:
+### Another example:
 
 ```yaml
 templates: [zed, chalet, macos]
