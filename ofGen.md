@@ -59,12 +59,12 @@ ofgen templates=chalet,zed
 
 ## 🗂️ Templates
 
-Templates can mean any mix of:
-
+### Templates can mean any mix of:
 - Code Editors: `Zed`, `VSCode`
 - Build Systems: `chalet`
 - Both: `XCode`
 
+### ofGen
 - `ofgen open` will open the first template in your list that is a code editor.
 - `ofgen buildrun` will use the first build system listed.
 
