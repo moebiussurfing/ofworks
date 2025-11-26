@@ -70,7 +70,7 @@ ofgen templates=chalet,zed
 
 ---
 
-### Example if using `of.yml`:
+## Example if using `of.yml`:
 
 ```yaml
 templates: [macos, zed, chalet]
@@ -78,7 +78,7 @@ templates: [macos, zed, chalet]
 - `ofgen open` ➜ Opens `Xcode`
 - `ofgen buildrun` ➜ Calls `xcodebuild`
 
-### Another example:
+## Another example:
 
 ```yaml
 templates: [zed, chalet, macos]
